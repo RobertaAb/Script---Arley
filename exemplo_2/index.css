@@ -1,0 +1,25 @@
+div , p{
+	background-color:yellow; color:magenta;
+}
+
+#destaque {
+		color:red; font-style:italic;
+		
+}
+
+.destaque {
+	color:blue; font-style:italic;
+}
+
+.bloco>div {
+	background-color:cyan;
+}
+.bloco> div >div{ 
+	background-color:green
+}
+.bloco p:hover{
+	font-weight:bold;
+}
+
+
+/* > siginifica filho, espaço significa descendente, p:hover */
